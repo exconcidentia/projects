@@ -13,7 +13,7 @@
        {color:white;
        font-family:Vivaldi;
        font-size:3em;
-       position:fixed;
+    
        text-align:center;
        margin:5px;
        border: solid white 2px;
@@ -24,7 +24,7 @@
       #sidebar
       {
       position:absolute;
-      top: 300px;
+      top: 240px;
       right: 78.5%;
       left: 5px;
     
@@ -52,7 +52,7 @@
       #c
       {
       position:absolute;
-     top: 475px;
+     top: 417px;
       padding: 8px;
       margin:5px;
           left: 5px;
@@ -64,11 +64,20 @@
       top: 85px;
       padding: 8px;
       margin:5px;
-     
+      right: 5%; 
       left:22%;
       
       }
-      #hello
+      #first-steps
+      {border:solid white 2px;
+      position:absolute;
+      top: 250px;
+      padding: 8px;
+      margin:5px;
+      left:22%;
+      right:5%;
+      }
+      .headers-posts
       {color: white;
       font-size:1.5em;
       }
@@ -110,8 +119,13 @@
     </div>
 
     <div id="first-post">
-        <h3 id="hello">Hello!</h3>
+        <h3 class="headers-posts">Hello!</h3>
         <p> <p class="date">08/04/2015</p>Ex Concidentia, that's me. I'm 17 years old learning computer programming. This is my first non-educational project. Everything self-made! 
+    </div>
+        
+        <div id="first-steps">
+            <h3 class="headers-posts">First steps with Git</h3>
+            <p> <p class="date">08/06/2015</p>Today I made the first steps with Git. After an confused email "Help me, it doesn't look like the ? and the answer "Git doesn't look, Git <em>is</em>, step for step I learned how it works. Why are those things that difficult?! They could be easy but I think if you want to program, it <em>can't</em> be easy. :D </p>
     </div>
     
         
