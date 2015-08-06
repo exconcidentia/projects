@@ -114,20 +114,17 @@
         </ul>
     </div>
     <div id="c" class="sidebar-all"><h3 class="sidebar-headers">Last but not least</h3> 
-    <p>
+        </div>
         
-    </div>
-
     <div id="first-post">
         <h3 class="headers-posts">Hello!</h3>
-        <p> <p class="date">08/04/2015</p>Ex Concidentia, that's me. I'm 17 years old learning computer programming. This is my first non-educational project. Everything self-made! 
+        <p> <p class="date">08/04/2015</p>Ex Concidentia, that's me. I'm 17 years old learning computer programming. This is my first non-educational project. Everything self-made! </p>
     </div>
         
         <div id="first-steps">
             <h3 class="headers-posts">First steps with Git</h3>
-            <p> <p class="date">08/06/2015</p>Today I made the first steps with Git. After an confused email "Help me, it doesn't look like the ? and the answer "Git doesn't look, Git <em>is</em>, step for step I learned how it works. Why are those things that difficult?! They could be easy but I think if you want to program, it <em>can't</em> be easy. :D </p>
+            <p> <p class="date">08/06/2015</p>Today I made the first steps with Git. After an confused email "Help me, it doesn't look like the instruction and the answer "Git doesn't look, Git <em>is</em>, step for step I learned how it works. Why are those things that difficult?! They could be easy but I think if you want to program, it <em>can't</em> be easy. :D </p>
     </div>
-    
         
     </body>
 </html>
