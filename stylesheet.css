@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(230, 215, 189);
+    z-index: 1;
+}
+
+#header {
+    color: white;
+    font-family: Vivaldi;
+    font-size: 3em;
+    position: fixed;
+    text-align: center;
+    margin: 5px;
+    border: solid white 2px;
+    background-color: rgb(230, 215, 189);
+    z-index: 3;
+}
+
+#sidebar {
+    position: absolute;
+    top: 300px;
+    right: 78.5%;
+    left: 5px;
+
+    padding: 8px;
+
+    margin: 5px;
+
+}
+
+#about-me {
+    position: absolute;
+    top: 85px;
+    padding: 8px;
+    margin: 5px;
+    right: 78.5%;
+    left: 5px;
+    overflow: auto;
+
+}
+
+#blabla-about-me {
+    font-style: italic;
+    overflow: auto;
+}
+
+#c {
+    position: absolute;
+    top: 475px;
+    padding: 8px;
+    margin: 5px;
+    left: 5px;
+    right: 78.5%;
+}
+
+#first-post {
+    border: solid white 2px;
+    position: absolute;
+    top: 85px;
+    padding: 8px;
+    margin: 5px;
+
+    left: 22%;
+
+}
+
+#hello {
+    color: white;
+    font-size: 1.5em;
+}
+
+.sidebar-headers {
+    color: white;
+}
+
+.date {
+    font-size: 0.7em;
+    color: black;
+    text-align: right;
+
+}
+
+.sidebar-all {
+    border: solid white 2px;
+    background-color: rgb(230, 215, 189);
+}
