@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(230, 215, 189);
     z-index: 1;
@@ -7,12 +8,24 @@ body {
     color: white;
     font-family: Vivaldi;
     font-size: 3em;
-    position: fixed;
     text-align: center;
+    position: fixed; 
+    
     margin: 5px;
     border: solid white 2px;
     background-color: rgb(230, 215, 189);
     z-index: 3;
+}
+#menu
+{
+ background: white;
+ color: dimgrey;
+ font-weight: italic; 
+ font-size: 1.5em;
+ padding: 5px; 
+ margin: 10px;
+ position: relative; 
+ top: 90px; 
 }
 
 #sidebar {
@@ -29,7 +42,7 @@ body {
 
 #about-me {
     position: absolute;
-    top: 85px;
+    top: 140px;
     padding: 8px;
     margin: 5px;
     right: 78.5%;
@@ -79,7 +92,6 @@ body {
     position: absolute;
     padding: 8px;
     margin: 5px;
-
     left: 22%;
   }
 .post-headers
@@ -104,4 +116,30 @@ body {
 .sidebar-all {
     border: solid white 2px;
     background-color: rgb(230, 215, 189);
+    margin: 5px;
+}
+
+.menu-box {
+    border: solid dimgrey 1px;
+    padding: 2px; 
+    margin:5px; 
+    
+
+}
+
+#header-site
+{
+ color: white;
+}
+
+#about-mesite
+{
+ position: absolute; 
+ top: 150px;
+ left: 22%;
+}
+    
+h2.p 
+{
+color: dimgrey;
 }
