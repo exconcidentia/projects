@@ -1,4 +1,5 @@
-body {
+body 
+{
     background-color: rgb(230, 215, 189);
     z-index: 1;
 }
@@ -7,12 +8,23 @@ body {
     color: white;
     font-family: Vivaldi;
     font-size: 3em;
-    position: fixed;
     text-align: center;
     margin: 5px;
     border: solid white 2px;
     background-color: rgb(230, 215, 189);
     z-index: 3;
+}
+#menu
+{
+ background: white;
+ color: dimgrey;
+ font-weight: italic; 
+ font-size: 1.5em;
+ padding: 5px; 
+ margin: 10px;
+ position: relative; 
+ top: 12px; 
+ 
 }
 
 #sidebar {
@@ -29,7 +41,7 @@ body {
 
 #about-me {
     position: absolute;
-    top: 85px;
+    top: 140px;
     padding: 8px;
     margin: 5px;
     right: 78.5%;
@@ -50,12 +62,14 @@ body {
     margin: 5px;
     left: 5px;
     right: 78.5%;
+    font-style: italic; 
 }
 
-#first-post {
-    border: solid white 2px;
+#first-post 
+{
+
     position: absolute;
-    top: 85px;
+    top: 110px;
     padding: 8px;
     margin: 5px;
 
@@ -63,13 +77,33 @@ body {
 
 }
 
-#hello {
-    color: white;
+#steps-git
+{
+    top: 275px
+}
+
+#finished
+{
+    top: 446px
+}
+.posts
+  {border-bottom: solid grey 1px;
+    padding: 5px;
+    position: absolute;
+    padding: 8px;
+    margin: 5px;
+    left: 22%;
+  }
+.post-headers
+{
+    color: dimgrey;
     font-size: 1.5em;
 }
 
+
+
 .sidebar-headers {
-    color: white;
+    color: dimgrey;
 }
 
 .date {
@@ -82,4 +116,34 @@ body {
 .sidebar-all {
     border: solid white 2px;
     background-color: rgb(230, 215, 189);
+    margin: 5px;
+}
+
+.menu-box {
+    border: solid dimgrey 1px;
+    padding: 5px; 
+    margin:5px; 
+    
+
+}
+
+#header-site
+{
+ color: white;
+}
+
+#about-mesite
+{
+ position: absolute; 
+ top: 150px;
+ left: 22%;
+}
+    
+h2.p 
+{
+color: dimgrey;
+}
+#designing
+{
+    top: 625px 
 }
